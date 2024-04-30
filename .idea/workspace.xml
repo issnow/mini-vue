@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1b1cf1d-d503-4ea3-ae5e-c64a4106a757" name="Changes" comment="" />
+    <list default="true" id="b1b1cf1d-d503-4ea3-ae5e-c64a4106a757" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reactivity/reactive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reactivity/reactive.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reactivity/tests/readonly.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reactivity/tests/readonly.spec.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,30 +34,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Jest.aaa.spec.ts.executor": "Run",
-    "Jest.effect.executor": "Run",
-    "Jest.effect.happy path.executor": "Debug",
-    "Jest.effect.scheduler.executor": "Debug",
-    "Jest.test1 (1).executor": "Run",
-    "Jest.test1 (2).executor": "Debug",
-    "Jest.test1.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/snow/Desktop/frontend/program/vue_demo/mini-vue",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.jest.jest_package": "/Users/snow/Desktop/frontend/program/vue_demo/mini-vue/node_modules/jest",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "JavaScript.Libraries",
-    "ts.external.directory.path": "/Users/snow/Desktop/frontend/program/vue_demo/mini-vue/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Jest.aaa.spec.ts.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.effect.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.effect.happy path.executor&quot;: &quot;Debug&quot;,
+    &quot;Jest.effect.scheduler.executor&quot;: &quot;Debug&quot;,
+    &quot;Jest.test1 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Jest.test1 (2).executor&quot;: &quot;Debug&quot;,
+    &quot;Jest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/snow/Desktop/frontend/program/vue_demo/mini-vue&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;/Users/snow/Desktop/frontend/program/vue_demo/mini-vue/node_modules/jest&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;JavaScript.Libraries&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/snow/Desktop/frontend/program/vue_demo/mini-vue/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Jest.effect.scheduler">
     <configuration name="aaa.spec.ts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
@@ -133,7 +137,8 @@
       <option name="presentableId" value="Default" />
       <updated>1714296201538</updated>
       <workItem from="1714296202733" duration="5586000" />
-      <workItem from="1714377010253" duration="15439000" />
+      <workItem from="1714377010253" duration="17010000" />
+      <workItem from="1714446156467" duration="2585000" />
     </task>
     <servers />
   </component>
