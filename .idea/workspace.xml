@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b1b1cf1d-d503-4ea3-ae5e-c64a4106a757" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reactivity/baseHandlers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reactivity/baseHandlers.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reactivity/reactive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reactivity/reactive.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reactivity/tests/readonly.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reactivity/tests/readonly.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reactivity/effect.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reactivity/effect.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reactivity/tests/effect.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reactivity/tests/effect.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reactivity/tests/reactive.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reactivity/tests/reactive.spec.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +139,7 @@
       <updated>1714296201538</updated>
       <workItem from="1714296202733" duration="5586000" />
       <workItem from="1714377010253" duration="17010000" />
-      <workItem from="1714446156467" duration="4241000" />
+      <workItem from="1714446156467" duration="7596000" />
     </task>
     <servers />
   </component>
