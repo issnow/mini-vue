@@ -6,6 +6,7 @@ class RefImpl {
   _value: any;
   dep
   private _rawValue: any;
+  __v_isRef = true
 
   constructor(value) {
     this._rawValue = value;
@@ -35,14 +36,27 @@ export function ref(value) {
   return new RefImpl(value);
 }
 
-export function isRef() {
-
+export function isRef(ref) {
+  return !!ref.__v_isRef
 }
 
-export function unRef() {
-
+export function unRef(ref) {
+  return isRef(ref) ? ref.value : ref;
 }
 
-export function proxyRefs() {
+export function proxyRefs(objectWithRefs) {
+  return new Proxy(objectWithRefs, {
+    get(target, key) {
+      return unRef(Reflect.get(target, key))
+    },
+    set(target, key, value) {
+      //看看之前的属性是不是ref类型
+      if (isRef(target[key]) && !isRef(value)) {
+        return target[key].value = value;
+      } else {
+        return Reflect.set(target, key, value);
+      }
+    }
+  })
 
 }
