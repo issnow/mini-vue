@@ -3,7 +3,7 @@ import {extend} from "../shared";
 let activeEffect
 let shouldTrack = false
 
-class ReactiveEffect {
+export class ReactiveEffect {
   private _fn: any;
   public scheduler: Function | undefined;
   deps = []
@@ -78,6 +78,7 @@ export function isTracking() {
 
 export function trigger(target, key) {
   let depsMap = targetMap.get(target)
+  if(!depsMap) return
   let dep = depsMap.get(key)
   for (let effect of dep) {
     if (effect.scheduler) {
