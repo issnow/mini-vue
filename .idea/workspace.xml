@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1b1cf1d-d503-4ea3-ae5e-c64a4106a757" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/helloworld/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/example/helloworld/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/helloworld/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/example/helloworld/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/helloworld/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/example/helloworld/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/runtime-core/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/runtime-core/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/runtime-core/renderer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/runtime-core/renderer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rollup.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/rollup.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +145,7 @@
       <workItem from="1714446156467" duration="23275000" />
       <workItem from="1714559552551" duration="68000" />
       <workItem from="1714559638363" duration="26000" />
-      <workItem from="1714559685603" duration="417000" />
+      <workItem from="1714559685603" duration="638000" />
     </task>
     <servers />
   </component>
