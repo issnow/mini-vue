@@ -8,9 +8,12 @@ export function render(vnode, container) {
 function patch(vnode, container) {
   //去处理组件
   //判断是不是element类型
+  processElement();
   processComponent(vnode, container)
 }
+function processElement() {
 
+}
 function processComponent(vnode, container) {
   mountComponent(vnode, container)
 }
